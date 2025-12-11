@@ -1,0 +1,45 @@
+{
+    "dmrg": {
+        "bond_dimension": [
+            8
+        ],
+        "ndigits_econvergence": 10,
+        "max_nsweeps_per_restart_highM": 10,
+        "max_nrestarts_highM": 5,
+        "max_nsweeps_per_restart_lowM": 20,
+        "max_nrestarts_lowM": 20,
+        "max_nsweeps_per_restart": 20,
+        "max_nrestarts": 20,
+        "cutoff": 0,
+        "eigsolve_krylovdim": 30,
+        "eigsolve_maxiter": 30,
+        "write_when_maxdim_exceeds": 2048,
+        "outputlevel": 1,
+        "engine": 1,
+        "outer_iters": 10,
+        "initial_state": "default/wf_0.h5"
+    },
+    "local_hilbert_space": {
+        "nmax": 9,
+        "n_2e": 6,
+        "conserve_quantum_numbers": true
+    },
+    "parameters": {
+        "pbc": false,
+        "L": 32,
+        "Qg": 0,
+        "jΔ": 0,
+        "jt": 0.2,
+        "jJ": 4.0,
+        "iterate_apply_Xdag": [
+            0
+        ],
+        "iterate_apply_Ydag": [
+            0
+        ]
+    },
+    "io": {
+        "output_directory": "default",
+        "final_str": "wf"
+    }
+}
